@@ -1,0 +1,10 @@
+ <div class="center">
+ <input class="button" type="button" (click)="hideTracksMethod()" value="Tracks"/>
+ 
+ <input class="button" type="button" (click)="showGenresMethod()" value="Genres"/>
+</div>
+
+<tracks  *ngIf="hideTracks"></tracks>
+<genres  *ngIf="hideGenres"></genres>
+
+

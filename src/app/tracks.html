@@ -1,0 +1,35 @@
+
+<h1 class="center">
+  {{title}}
+</h1>
+
+ <div class="center">
+         <input  class="border" type="text" placeholder="Search Title" id="inputName" [(ngModel)]="inputName" (keyup)="onKeySearch($event)"/>
+   </div>
+   <br>
+<table class="table table-bordered table-condensed ">
+    <tbody>
+      <tr *ngFor="let item of items">
+         
+          <td>{{item.name}}</td>
+         <rating  [disabled]="true" ></rating>
+      </tr>
+    </tbody>
+</table>
+<br>
+<div class="center">
+  <input class="button" type="button" (click)="addNewTrack()" value="Add New Track"/>
+</div>
+<br>
+<div class="center" *ngIf="hideElement">
+  <input *ngIf="hideElement" type="text"  [(ngModel)]="newValue"/>
+   <input *ngIf="hideElement" type="button" (click)="addNewTrackvalue()" value="submit"/>
+</div>
+<div class="pages">
+  <input class="firstpage" type="button" (click)="prevPage()" value="prev"/>
+   <input class="pagebutton" type="button"  value={{pagename}}/>
+    <input class="lastpage" type="button" (click)="nextPage()" value=next/>
+</div>
+
+
+

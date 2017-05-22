@@ -1,0 +1,101 @@
+
+.center{
+	 text-align: center;
+	  font:  bold  Georgia, serif;
+}
+.border{
+	 border-style: solid;
+    border-width: 2px;
+    border-radius: 25px;
+}
+input{
+	padding-left: 10px;
+}
+table {
+	margin-top: 5px;
+    border-collapse: collapse;
+     margin-left:auto; 
+    margin-right:auto;
+
+}
+
+table {
+    border: 2px solid black;
+
+}
+td{
+	 border: 0px solid black;
+	 
+	  border-bottom-width: 2px;
+	 padding-left: 10px;
+	 padding-right: 15px;
+	 padding-top: 2px;
+}
+rating{
+	 border: 0px solid black;
+	 
+	 padding-bottom: 2px;
+	 border-bottom-width: 2px;
+	 font-size: 10px;
+
+}
+th {
+    text-align: left;
+}
+.pagination { margin: 0px !important; }
+.button{
+	 text-align: center;
+	  
+	  margin-top: 5px;
+	   border: 2px solid black;
+	    border-radius: 7px;
+	     background-color: #E5E5FF;
+	     font-size: 15px;
+	     padding: 10px 50px;
+}
+.pagebutton{
+	 text-align: center;
+	  
+	  margin-top: 70px;
+	   border: 2px solid black;
+	   border-left-width: 1px;
+	    border-right-width: 1px;
+	     background-color: #E5E5FF;
+	     font-size: 15px;
+	     padding: 3px 15px;
+	     margin-left: -1px;
+	     margin-right: -3px;
+}
+.firstpage{
+	 text-align: center;
+	  border-top-left-radius:7px;
+	  border-bottom-left-radius:7px;
+	  margin-top: 5px;
+	   border: 2px solid black;
+	   border-left-width: 2px;
+	    border-right-width: 1px;
+	     background-color: white;
+	     font-size: 15px;
+	     padding: 3px 15px;
+	     margin-left: -1px;
+	     margin-right: -3px;
+}
+.lastpage{
+	 text-align: center;
+	  border-top-right-radius:7px;
+border-bottom-right-radius:7px;
+	  margin-top: 5px;
+	   border: 2px solid black;
+	   border-left-width: 1px;
+	    border-right-width: 2px;
+	     background-color: white;
+	     font-size: 15px;
+	     padding: 3px 15px;
+	     margin-left: -1px;
+	     margin-right: -3px;
+}
+.pages{
+ text-align: center;
+	  font:  bold  Georgia, serif;
+	  margin-top: -40px;	
+}
